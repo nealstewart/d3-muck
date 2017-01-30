@@ -1,0 +1,182 @@
+[
+    {
+        "app": "Storefront",
+        "dependencies": [
+            "ActivePurchaseRequestService",
+            "AngularJS",
+            "AngularTest",
+            "AssignmentService",
+            "BigDecimal",
+            "CommodityService",
+            "Core",
+            "CurrencyService",
+            "DocumentService",
+            "InfoService",
+            "Links",
+            "LoDash",
+            "Logger",
+            "PayableAmountCalculator",
+            "PurchaseRequestModels",
+            "PurchaseRequestMonitor",
+            "PurchaseRequestService",
+            "Q",
+            "Rest",
+            "StorefrontOfferService",
+            "TaxonomyService",
+            "TestHelper",
+            "UserService",
+            "WorkflowServicev4",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "ActivePurchaseRequestService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "AssignmentService",
+        "dependencies": []
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "CommodityService",
+        "dependencies": []
+    },
+    {
+        "app": "CurrencyService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentService",
+        "dependencies": []
+    },
+    {
+        "app": "InfoService",
+        "dependencies": []
+    },
+    {
+        "app": "Logger",
+        "dependencies": []
+    },
+    {
+        "app": "PayableAmountCalculator",
+        "dependencies": [
+            "BigDecimal",
+            "CurrencyService",
+            "DocumentModels",
+            "LoDash",
+            "Q",
+            "TestHelper",
+            "TotalsCalculator"
+        ]
+    },
+    {
+        "app": "DocumentModels",
+        "dependencies": [
+            "BigDecimal",
+            "LoDash"
+        ]
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "TotalsCalculator",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestModels",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestMonitor",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestService",
+        "dependencies": []
+    },
+    {
+        "app": "Rest",
+        "dependencies": []
+    },
+    {
+        "app": "StorefrontOfferService",
+        "dependencies": []
+    },
+    {
+        "app": "TaxonomyService",
+        "dependencies": []
+    },
+    {
+        "app": "UserService",
+        "dependencies": []
+    },
+    {
+        "app": "WorkflowServicev4",
+        "dependencies": []
+    }
+]

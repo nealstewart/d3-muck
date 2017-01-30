@@ -1,0 +1,2032 @@
+[
+    {
+        "app": "PurchaseRequestV1",
+        "dependencies": [
+            "ActivePurchaseRequestService",
+            "AngularJS",
+            "AngularTest",
+            "AppSettingService",
+            "ApprovalPanel",
+            "AssignmentDeadlineService",
+            "AssignmentService",
+            "BigDecimal",
+            "CodingService",
+            "CollaborationService",
+            "CommodityService",
+            "Core",
+            "CurrencyService",
+            "DocumentInfoService",
+            "DocumentService",
+            "DocumentTypeService",
+            "DocumentValidator",
+            "Enum",
+            "Identity",
+            "IdentitySelector",
+            "InfoService",
+            "Links",
+            "LoDash",
+            "Logger",
+            "Moment",
+            "PayableAmountCalculator",
+            "PurchaseRequestModels",
+            "PurchaseRequestMonitor",
+            "PurchaseRequestService",
+            "PurchaseRequestSteps",
+            "Q",
+            "RejectionPanel",
+            "Rest",
+            "TaxonomyCommodityPanel",
+            "TeamService",
+            "TestHelper",
+            "UBL",
+            "UserSelector",
+            "UserService",
+            "WorkflowTaskService",
+            "WorkflowUserService"
+        ]
+    },
+    {
+        "app": "ActivePurchaseRequestService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "AppSettingService",
+        "dependencies": []
+    },
+    {
+        "app": "ApprovalPanel",
+        "dependencies": []
+    },
+    {
+        "app": "AssignmentDeadlineService",
+        "dependencies": []
+    },
+    {
+        "app": "AssignmentService",
+        "dependencies": []
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "CodingService",
+        "dependencies": []
+    },
+    {
+        "app": "CollaborationService",
+        "dependencies": [
+            "CompanyService",
+            "DocumentService",
+            "LoDash",
+            "Q",
+            "Rest"
+        ]
+    },
+    {
+        "app": "CompanyService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentService",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "Rest",
+        "dependencies": []
+    },
+    {
+        "app": "CommodityService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "CurrencyService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentInfoService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentTypeService",
+        "dependencies": [
+            "DocHeaderFields",
+            "DocLines",
+            "DocNote",
+            "DocStatusStrip",
+            "DocumentComponentList",
+            "DocumentDeliveryAddress",
+            "DocumentInvoiceLines",
+            "DocumentLine",
+            "DocumentLineList",
+            "DocumentPartiesEditor",
+            "DocumentPaymentsEditor",
+            "DocumentPlaceholderComponent",
+            "DocumentTotals",
+            "HeaderInfo",
+            "LoDash",
+            "Moment",
+            "PaymentMeanList",
+            "PurchaseRequestCodeMapping",
+            "PurchaseRequestModels",
+            "RequisitionFooter",
+            "Tradeshift"
+        ]
+    },
+    {
+        "app": "DocHeaderFields",
+        "dependencies": [
+            "AngularJS",
+            "DocumentComponent",
+            "FormElements"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "FormElements",
+        "dependencies": []
+    },
+    {
+        "app": "DocLines",
+        "dependencies": [
+            "AngularJS",
+            "AngularTest",
+            "BigDecimal",
+            "DocumentComponent",
+            "DocumentModels",
+            "FormElements",
+            "LoDash",
+            "Logger",
+            "NumberFormat",
+            "PayableAmountCalculator",
+            "PurchaseRequestModels",
+            "Q",
+            "TaxService",
+            "TaxSet",
+            "TestHelper",
+            "TotalsCalculator"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentModels",
+        "dependencies": [
+            "BigDecimal",
+            "LoDash"
+        ]
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "FormElements",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Logger",
+        "dependencies": []
+    },
+    {
+        "app": "NumberFormat",
+        "dependencies": []
+    },
+    {
+        "app": "PayableAmountCalculator",
+        "dependencies": [
+            "BigDecimal",
+            "CurrencyService",
+            "DocumentModels",
+            "LoDash",
+            "Q",
+            "TestHelper",
+            "TotalsCalculator"
+        ]
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "CurrencyService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentModels",
+        "dependencies": [
+            "BigDecimal",
+            "LoDash"
+        ]
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "TotalsCalculator",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestModels",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "TaxService",
+        "dependencies": []
+    },
+    {
+        "app": "TaxSet",
+        "dependencies": []
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "TotalsCalculator",
+        "dependencies": []
+    },
+    {
+        "app": "DocNote",
+        "dependencies": [
+            "AngularJS",
+            "DocumentComponent"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "DocStatusStrip",
+        "dependencies": [
+            "AngularJS",
+            "DocumentComponent"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponentList",
+        "dependencies": [
+            "AngularJS",
+            "DocumentComponent"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentDeliveryAddress",
+        "dependencies": [
+            "AngularJS",
+            "AngularTest",
+            "DocumentComponent",
+            "FeatureService",
+            "LegalEntityModel",
+            "LegalEntityService",
+            "LoDash",
+            "Logger",
+            "PurchaseRequestModels",
+            "Q",
+            "TestHelper",
+            "WorkflowUserService"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "FeatureService",
+        "dependencies": []
+    },
+    {
+        "app": "LegalEntityModel",
+        "dependencies": []
+    },
+    {
+        "app": "LegalEntityService",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Logger",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestModels",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "WorkflowUserService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentInvoiceLines",
+        "dependencies": [
+            "AngularJS",
+            "BigDecimal",
+            "DocumentComponent",
+            "LoDash"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentLine",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentLineList",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentPartiesEditor",
+        "dependencies": [
+            "AngularJS",
+            "DocumentComponent"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentPaymentsEditor",
+        "dependencies": [
+            "AngularJS",
+            "Core",
+            "DocumentComponent",
+            "LoDash"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentPlaceholderComponent",
+        "dependencies": [
+            "AngularJS",
+            "DocumentComponent"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentTotals",
+        "dependencies": []
+    },
+    {
+        "app": "HeaderInfo",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Moment",
+        "dependencies": []
+    },
+    {
+        "app": "PaymentMeanList",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestCodeMapping",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestModels",
+        "dependencies": []
+    },
+    {
+        "app": "RequisitionFooter",
+        "dependencies": [
+            "AngularJS",
+            "AngularTest",
+            "DocumentComponent",
+            "FeatureService",
+            "Links",
+            "LoDash",
+            "Logger",
+            "Q",
+            "Rest",
+            "TestHelper",
+            "WrittenRequestPanel"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentComponent",
+        "dependencies": [
+            "Core"
+        ]
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "FeatureService",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Logger",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "Rest",
+        "dependencies": []
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "WrittenRequestPanel",
+        "dependencies": [
+            "AngularJS",
+            "AngularTest",
+            "CommodityService",
+            "Core",
+            "PurchaseRequestModels",
+            "Q",
+            "TestHelper",
+            "WrittenRequestForm"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "AngularTest",
+        "dependencies": [
+            "AngularJS",
+            "LoDash",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AngularJS",
+        "dependencies": [
+            "AnalyticsService",
+            "AngularTest",
+            "CloudinaryService",
+            "Core",
+            "Info",
+            "Links",
+            "LoDash",
+            "Q",
+            "SpinJS",
+            "jQuery"
+        ]
+    },
+    {
+        "app": "AnalyticsService",
+        "dependencies": []
+    },
+    {
+        "app": "CloudinaryService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "Info",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "SpinJS",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "jQuery",
+        "dependencies": []
+    },
+    {
+        "app": "CommodityService",
+        "dependencies": []
+    },
+    {
+        "app": "Core",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestModels",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "WrittenRequestForm",
+        "dependencies": []
+    },
+    {
+        "app": "Tradeshift",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentValidator",
+        "dependencies": [
+            "BigDecimal",
+            "Enum",
+            "LoDash",
+            "Logger",
+            "PurchaseRequestModels",
+            "UBL"
+        ]
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "Enum",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Logger",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestModels",
+        "dependencies": []
+    },
+    {
+        "app": "UBL",
+        "dependencies": []
+    },
+    {
+        "app": "Enum",
+        "dependencies": []
+    },
+    {
+        "app": "Identity",
+        "dependencies": []
+    },
+    {
+        "app": "IdentitySelector",
+        "dependencies": []
+    },
+    {
+        "app": "InfoService",
+        "dependencies": []
+    },
+    {
+        "app": "Links",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Logger",
+        "dependencies": []
+    },
+    {
+        "app": "Moment",
+        "dependencies": []
+    },
+    {
+        "app": "PayableAmountCalculator",
+        "dependencies": [
+            "BigDecimal",
+            "CurrencyService",
+            "DocumentModels",
+            "LoDash",
+            "Q",
+            "TestHelper",
+            "TotalsCalculator"
+        ]
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "CurrencyService",
+        "dependencies": []
+    },
+    {
+        "app": "DocumentModels",
+        "dependencies": [
+            "BigDecimal",
+            "LoDash"
+        ]
+    },
+    {
+        "app": "BigDecimal",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "LoDash",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "TotalsCalculator",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestModels",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestMonitor",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestService",
+        "dependencies": []
+    },
+    {
+        "app": "PurchaseRequestSteps",
+        "dependencies": []
+    },
+    {
+        "app": "Q",
+        "dependencies": []
+    },
+    {
+        "app": "RejectionPanel",
+        "dependencies": []
+    },
+    {
+        "app": "Rest",
+        "dependencies": []
+    },
+    {
+        "app": "TaxonomyCommodityPanel",
+        "dependencies": []
+    },
+    {
+        "app": "TeamService",
+        "dependencies": []
+    },
+    {
+        "app": "TestHelper",
+        "dependencies": []
+    },
+    {
+        "app": "UBL",
+        "dependencies": []
+    },
+    {
+        "app": "UserSelector",
+        "dependencies": []
+    },
+    {
+        "app": "UserService",
+        "dependencies": []
+    },
+    {
+        "app": "WorkflowTaskService",
+        "dependencies": []
+    },
+    {
+        "app": "WorkflowUserService",
+        "dependencies": []
+    }
+]
